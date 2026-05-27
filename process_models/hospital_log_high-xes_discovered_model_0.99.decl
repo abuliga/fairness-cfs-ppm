@@ -1,0 +1,11 @@
+activity Register at ER
+activity Expert Examination
+activity Diagnosis
+activity Treatment
+activity Treatment successful
+activity Discharge
+activity Register at FD
+activity Thorough Examination
+activity Examination
+activity Treatment unsuccessful
+Existence1[Treatment] | | |

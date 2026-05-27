@@ -1,0 +1,30 @@
+activity Register at ER
+activity Expert Examination
+activity Diagnosis
+activity Treatment
+activity Treatment successful
+activity Register at FD
+activity Thorough Examination
+activity Discharge
+activity Examination
+activity Treatment unsuccessful
+Existence1[Treatment] | | |
+Absence2[Treatment] | | |
+Exactly1[Treatment] | | |
+Existence1[Diagnosis] | | |
+Absence2[Diagnosis] | | |
+Exactly1[Diagnosis] | | |
+Choice[Treatment, Diagnosis] | | |
+Choice[Diagnosis, Treatment] | | |
+Responded Existence[Treatment, Diagnosis] | | |
+Responded Existence[Diagnosis, Treatment] | | |
+Response[Diagnosis, Treatment] | | |
+Alternate Response[Diagnosis, Treatment] | | |
+Chain Response[Diagnosis, Treatment] | | |
+Precedence[Diagnosis, Treatment] | | |
+Alternate Precedence[Diagnosis, Treatment] | | |
+Chain Precedence[Diagnosis, Treatment] | | |
+Not Response[Treatment, Diagnosis] | | |
+Not Precedence[Treatment, Diagnosis] | | |
+Not Chain Response[Treatment, Diagnosis] | | |
+Not Chain Precedence[Treatment, Diagnosis] | | |

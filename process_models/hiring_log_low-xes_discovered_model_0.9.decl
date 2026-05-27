@@ -1,0 +1,33 @@
+activity Hand In Job Application
+activity Telephonic Screening
+activity Background Check
+activity Screening Interview
+activity Extensive Background Check
+activity Application Rejected
+activity Coding Interview
+activity ML Interview
+activity Frontend Interview
+activity Backend Interview
+activity Behavioral Interview
+activity Make Job Offer
+Existence1[Hand In Job Application] | | |
+Absence2[Hand In Job Application] | | |
+Exactly1[Hand In Job Application] | | |
+Init[Hand In Job Application] | | |
+Existence1[Telephonic Screening] | | |
+Absence2[Telephonic Screening] | | |
+Exactly1[Telephonic Screening] | | |
+Choice[Hand In Job Application, Telephonic Screening] | | |
+Choice[Telephonic Screening, Hand In Job Application] | | |
+Responded Existence[Hand In Job Application, Telephonic Screening] | | |
+Responded Existence[Telephonic Screening, Hand In Job Application] | | |
+Response[Hand In Job Application, Telephonic Screening] | | |
+Alternate Response[Hand In Job Application, Telephonic Screening] | | |
+Chain Response[Hand In Job Application, Telephonic Screening] | | |
+Precedence[Hand In Job Application, Telephonic Screening] | | |
+Alternate Precedence[Hand In Job Application, Telephonic Screening] | | |
+Chain Precedence[Hand In Job Application, Telephonic Screening] | | |
+Not Response[Telephonic Screening, Hand In Job Application] | | |
+Not Precedence[Telephonic Screening, Hand In Job Application] | | |
+Not Chain Response[Telephonic Screening, Hand In Job Application] | | |
+Not Chain Precedence[Telephonic Screening, Hand In Job Application] | | |

@@ -1,0 +1,21 @@
+activity NEW
+activity FIN
+activity RELEASE
+activity CODE OK
+activity BILLED
+activity CHANGE DIAGN
+activity DELETE
+activity CODE NOK
+activity REOPEN
+activity SET STATUS
+activity EMPTY
+activity STORNO
+activity REJECT
+activity MANUAL
+activity CODE ERROR
+activity JOIN-PAT
+activity CHANGE END
+Existence1[NEW] | | |
+Absence2[NEW] | | |
+Exactly1[NEW] | | |
+Init[NEW] | | |

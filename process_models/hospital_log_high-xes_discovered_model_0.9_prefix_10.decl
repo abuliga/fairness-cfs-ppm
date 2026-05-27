@@ -1,0 +1,53 @@
+activity Register at ER
+activity Expert Examination
+activity Diagnosis
+activity Treatment
+activity Treatment successful
+activity Discharge
+activity Register at FD
+activity Thorough Examination
+activity Examination
+activity Treatment unsuccessful
+Existence1[Treatment] | | |
+Existence1[Diagnosis] | | |
+Existence1[Discharge] | | |
+Absence2[Discharge] | | |
+Exactly1[Discharge] | | |
+End[Discharge] | | |
+Choice[Treatment, Diagnosis] | | |
+Choice[Diagnosis, Treatment] | | |
+Responded Existence[Treatment, Diagnosis] | | |
+Responded Existence[Diagnosis, Treatment] | | |
+Response[Diagnosis, Treatment] | | |
+Alternate Response[Diagnosis, Treatment] | | |
+Chain Response[Diagnosis, Treatment] | | |
+Precedence[Diagnosis, Treatment] | | |
+Alternate Precedence[Diagnosis, Treatment] | | |
+Chain Precedence[Diagnosis, Treatment] | | |
+Not Chain Response[Treatment, Diagnosis] | | |
+Not Chain Precedence[Treatment, Diagnosis] | | |
+Choice[Discharge, Treatment] | | |
+Choice[Treatment, Discharge] | | |
+Responded Existence[Discharge, Treatment] | | |
+Responded Existence[Treatment, Discharge] | | |
+Response[Treatment, Discharge] | | |
+Precedence[Treatment, Discharge] | | |
+Alternate Precedence[Treatment, Discharge] | | |
+Not Response[Discharge, Treatment] | | |
+Not Precedence[Discharge, Treatment] | | |
+Not Chain Response[Discharge, Treatment] | | |
+Not Chain Response[Treatment, Discharge] | | |
+Not Chain Precedence[Discharge, Treatment] | | |
+Choice[Discharge, Diagnosis] | | |
+Choice[Diagnosis, Discharge] | | |
+Responded Existence[Discharge, Diagnosis] | | |
+Responded Existence[Diagnosis, Discharge] | | |
+Response[Diagnosis, Discharge] | | |
+Precedence[Diagnosis, Discharge] | | |
+Alternate Precedence[Diagnosis, Discharge] | | |
+Not Response[Discharge, Diagnosis] | | |
+Not Precedence[Discharge, Diagnosis] | | |
+Not Chain Response[Discharge, Diagnosis] | | |
+Not Chain Response[Diagnosis, Discharge] | | |
+Not Chain Precedence[Discharge, Diagnosis] | | |
+Not Chain Precedence[Diagnosis, Discharge] | | |

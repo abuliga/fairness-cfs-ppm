@@ -1,0 +1,3 @@
+activity Register at ER
+activity Register at FD
+Choice[Register at ER, Register at FD] | | |

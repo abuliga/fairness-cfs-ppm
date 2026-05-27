@@ -1,0 +1,8 @@
+activity Register at ER
+activity Expert Examination
+activity Diagnosis
+activity Register at FD
+activity Thorough Examination
+activity Examination
+activity Treatment
+Choice[Register at ER, Register at FD] | | |

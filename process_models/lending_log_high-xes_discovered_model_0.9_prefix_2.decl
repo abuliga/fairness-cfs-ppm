@@ -1,0 +1,6 @@
+activity Request Appointment
+Existence1[Request Appointment] | | |
+Absence2[Request Appointment] | | |
+Exactly1[Request Appointment] | | |
+Init[Request Appointment] | | |
+End[Request Appointment] | | |

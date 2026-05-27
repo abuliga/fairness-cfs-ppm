@@ -1,0 +1,96 @@
+activity Register at ER
+activity Expert Examination
+activity Diagnosis
+activity Treatment
+activity Treatment successful
+activity Discharge
+activity Register at FD
+activity Thorough Examination
+activity Examination
+activity Treatment unsuccessful
+Existence1[Treatment] | | |
+Existence1[Discharge] | | |
+Absence2[Discharge] | | |
+Exactly1[Discharge] | | |
+End[Discharge] | | |
+Existence1[Diagnosis] | | |
+Existence1[Treatment successful] | | |
+Absence2[Treatment successful] | | |
+Exactly1[Treatment successful] | | |
+Choice[Discharge, Treatment] | | |
+Choice[Treatment, Discharge] | | |
+Responded Existence[Discharge, Treatment] | | |
+Responded Existence[Treatment, Discharge] | | |
+Response[Treatment, Discharge] | | |
+Precedence[Treatment, Discharge] | | |
+Alternate Precedence[Treatment, Discharge] | | |
+Not Response[Discharge, Treatment] | | |
+Not Precedence[Discharge, Treatment] | | |
+Not Chain Response[Discharge, Treatment] | | |
+Not Chain Response[Treatment, Discharge] | | |
+Not Chain Precedence[Discharge, Treatment] | | |
+Not Chain Precedence[Treatment, Discharge] | | |
+Choice[Diagnosis, Treatment] | | |
+Choice[Treatment, Diagnosis] | | |
+Responded Existence[Diagnosis, Treatment] | | |
+Responded Existence[Treatment, Diagnosis] | | |
+Response[Diagnosis, Treatment] | | |
+Alternate Response[Diagnosis, Treatment] | | |
+Chain Response[Diagnosis, Treatment] | | |
+Precedence[Diagnosis, Treatment] | | |
+Alternate Precedence[Diagnosis, Treatment] | | |
+Chain Precedence[Diagnosis, Treatment] | | |
+Not Chain Response[Treatment, Diagnosis] | | |
+Not Chain Precedence[Treatment, Diagnosis] | | |
+Choice[Treatment, Treatment successful] | | |
+Choice[Treatment successful, Treatment] | | |
+Responded Existence[Treatment, Treatment successful] | | |
+Responded Existence[Treatment successful, Treatment] | | |
+Response[Treatment, Treatment successful] | | |
+Precedence[Treatment, Treatment successful] | | |
+Alternate Precedence[Treatment, Treatment successful] | | |
+Chain Precedence[Treatment, Treatment successful] | | |
+Not Response[Treatment successful, Treatment] | | |
+Not Precedence[Treatment successful, Treatment] | | |
+Not Chain Response[Treatment successful, Treatment] | | |
+Not Chain Precedence[Treatment successful, Treatment] | | |
+Choice[Diagnosis, Discharge] | | |
+Choice[Discharge, Diagnosis] | | |
+Responded Existence[Diagnosis, Discharge] | | |
+Responded Existence[Discharge, Diagnosis] | | |
+Response[Diagnosis, Discharge] | | |
+Precedence[Diagnosis, Discharge] | | |
+Alternate Precedence[Diagnosis, Discharge] | | |
+Not Response[Discharge, Diagnosis] | | |
+Not Precedence[Discharge, Diagnosis] | | |
+Not Chain Response[Diagnosis, Discharge] | | |
+Not Chain Response[Discharge, Diagnosis] | | |
+Not Chain Precedence[Diagnosis, Discharge] | | |
+Not Chain Precedence[Discharge, Diagnosis] | | |
+Choice[Discharge, Treatment successful] | | |
+Choice[Treatment successful, Discharge] | | |
+Responded Existence[Discharge, Treatment successful] | | |
+Responded Existence[Treatment successful, Discharge] | | |
+Response[Treatment successful, Discharge] | | |
+Alternate Response[Treatment successful, Discharge] | | |
+Chain Response[Treatment successful, Discharge] | | |
+Precedence[Treatment successful, Discharge] | | |
+Alternate Precedence[Treatment successful, Discharge] | | |
+Chain Precedence[Treatment successful, Discharge] | | |
+Not Response[Discharge, Treatment successful] | | |
+Not Precedence[Discharge, Treatment successful] | | |
+Not Chain Response[Discharge, Treatment successful] | | |
+Not Chain Precedence[Discharge, Treatment successful] | | |
+Choice[Diagnosis, Treatment successful] | | |
+Choice[Treatment successful, Diagnosis] | | |
+Responded Existence[Diagnosis, Treatment successful] | | |
+Responded Existence[Treatment successful, Diagnosis] | | |
+Response[Diagnosis, Treatment successful] | | |
+Precedence[Diagnosis, Treatment successful] | | |
+Alternate Precedence[Diagnosis, Treatment successful] | | |
+Not Response[Treatment successful, Diagnosis] | | |
+Not Precedence[Treatment successful, Diagnosis] | | |
+Not Chain Response[Diagnosis, Treatment successful] | | |
+Not Chain Response[Treatment successful, Diagnosis] | | |
+Not Chain Precedence[Diagnosis, Treatment successful] | | |
+Not Chain Precedence[Treatment successful, Diagnosis] | | |

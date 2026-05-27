@@ -1,0 +1,34 @@
+activity register
+activity asses eligibility
+activity collect history
+activity risk assessment
+activity low risk
+activity prostate screening
+activity inform prevention
+activity bill patient
+activity explain diagnosis
+activity discuss options
+activity schedule treatment
+activity high risk
+activity mammary screening
+activity discharge patient
+activity refuse screening
+Existence1[register] | | |
+Absence2[register] | | |
+Exactly1[register] | | |
+Init[register] | | |
+Existence1[bill patient] | | |
+Absence2[bill patient] | | |
+End[bill patient] | | |
+Choice[register, bill patient] | | |
+Choice[bill patient, register] | | |
+Responded Existence[register, bill patient] | | |
+Responded Existence[bill patient, register] | | |
+Response[register, bill patient] | | |
+Precedence[register, bill patient] | | |
+Not Response[bill patient, register] | | |
+Not Precedence[bill patient, register] | | |
+Not Chain Response[register, bill patient] | | |
+Not Chain Response[bill patient, register] | | |
+Not Chain Precedence[register, bill patient] | | |
+Not Chain Precedence[bill patient, register] | | |

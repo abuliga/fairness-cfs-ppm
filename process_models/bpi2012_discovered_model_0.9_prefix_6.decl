@@ -1,0 +1,15 @@
+activity A_SUBMITTED
+activity A_PARTLYSUBMITTED
+activity A_PREACCEPTED
+activity A_ACCEPTED
+activity A_FINALIZED
+activity A_REGISTERED
+activity A_APPROVED
+activity A_ACTIVATED
+activity A_DECLINED
+activity A_CANCELLED
+activity 0
+Init[A_SUBMITTED] | | |
+Absence1[A_CANCELLED] | | |
+Absence1[A_DECLINED] | | |
+Existence1[A_PREACCEPTED] | | |

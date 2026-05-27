@@ -1,0 +1,16 @@
+activity Hand In Job Application
+activity Telephonic Screening
+activity Screening Interview
+activity Background Check
+activity Extensive Background Check
+activity Coding Interview
+activity ML Interview
+activity Frontend Interview
+activity Behavioral Interview
+activity Make Job Offer
+activity Application Rejected
+activity Backend Interview
+Existence1[Hand In Job Application] | | |
+Absence2[Hand In Job Application] | | |
+Exactly1[Hand In Job Application] | | |
+Init[Hand In Job Application] | | |
